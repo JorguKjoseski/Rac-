@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Race</title>
+</head>
+
+<body id="race">
+	<div id="count">3</div>
+	<div id="flag"></div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<h1>Car racing game</h1>
+				<div>
+					<button class="btn btn-default race">Race!</button>
+					<button class="btn btn-default startOver">Start over</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 raceTrack">
+				<div class="imgTrack">
+					<div class="car2"></div>
+					<div class="car1"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 text-center">
+				<h2>Results</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<h4 class="car1Color">Car 1</h4>
+						<table class="table table-bordered score1">
+
+						</table>
+					</div>
+					<div class="col-md-6">
+						<h4 class="car2Color">Car 2</h4>
+						<table class="table table-bordered score2">
+
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="previousResult">Results from the previous time you played this game:</h3>
+						<table class="table table-bordered finalScore">
+
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>    
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
